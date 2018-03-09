@@ -1,7 +1,7 @@
 <?php
 	class config{
 		public function config(){ // Настройки сервера
-			set_time_limit(30);
+			set_time_limit(60);
 			ini_set('display_errors','Off');
 		}
 		
