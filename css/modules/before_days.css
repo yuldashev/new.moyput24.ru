@@ -1,0 +1,46 @@
+.before_days_div{
+	width:400px;
+	margin:10px;
+	border:1px solid #cfcfcf;
+	border-radius:4px;
+	float:left;
+}
+.before_days_title{
+	padding:10px;
+	text-align:center;
+	font-weight:700;
+	border-bottom:1px solid #cfcfcf;
+}
+.before_days_element{
+	margin:3px 10px;
+	font-size:14px;
+	color:#999999;
+}
+.before_days_element a:hover{
+	text-decoration:underline;
+}
+.before_days_body{
+	margin:10px;
+	cursor:pointer;
+}
+.progress_ob{
+	border:1px solid #cfcfcf;
+	border-radius:4px;
+	height:10px;
+	padding:2px;
+	margin:0 20px 10px 20px;
+}
+.progress_line{
+	height:10px;
+	background:#96d21d;
+}
+.progress_vn{
+	position:relative;
+	height:30px;
+	overflow:visible;
+}
+.progress_vn img{
+	position:absolute;
+	top:-7px;
+	left:186px;
+}

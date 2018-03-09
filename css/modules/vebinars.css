@@ -1,0 +1,30 @@
+.vebinar_face{
+	width:285px;
+	height:280px;
+	margin:7px;
+	position:relative;
+	display:inline-block;
+	cursor:pointer;
+}
+.vebinar_body{
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:1;
+}
+.vebinar_body img{
+	width:285px;
+	height:190px;
+}
+.vebinar_title{
+	font-size:14px;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	padding:15px;
+	z-index:2;
+}
+.vebinar_title p{
+	text-align:right;
+	width:270px;
+}

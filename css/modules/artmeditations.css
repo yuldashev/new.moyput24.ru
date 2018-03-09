@@ -1,0 +1,33 @@
+#artmeditation_text p{
+	display:inline;
+	text-align:justify;
+}
+#artmeditation_photo{
+	width:314px;
+	float:right;
+	height:auto;
+	margin-left:20px;
+	margin-bottom:20px;
+}
+
+@media screen and (max-width: 1350px) {
+	#artmeditation_text{
+		width:380px;
+	}
+	#artmeditation_photo{
+		width:200px;
+		float:right;
+	}
+	#artmeditation_photo img{
+		width:200px;
+		height:auto;
+	}
+}
+@media screen and (max-width: 1024px) {
+	#artmeditation_text{
+		width: calc(100% - 320px);
+		width: -moz-calc(100% - 320px);
+		width: -webkit-calc(100% - 320px);
+		width: -o-calc(100% - 320px);
+	}
+}

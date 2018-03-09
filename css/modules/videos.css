@@ -1,0 +1,27 @@
+.video_face{
+	width:427px;
+	height:341px;
+	margin:12px;
+	border:1px solid #cfcfcf;
+	position:relative;
+	display:inline-block;
+	cursor:pointer;
+}
+.video_body{
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:1;
+}
+.video_body iframe{
+	width:427px;
+	height:285px;
+}
+.video_title{
+	font-size:18px;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	padding:15px;
+	z-index:2;
+}

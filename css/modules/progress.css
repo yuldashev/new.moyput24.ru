@@ -1,0 +1,42 @@
+#ico_right{
+	display:inline-block;
+	width:14px;
+	text-align:center;
+	position:relative;
+	top:-70px;
+}
+#ico_right img{
+	margin:100px 0px;
+}
+.photo{
+	width:210px;
+	height:300px;
+	display:inline-block;
+	margin:5px;
+	cursor:pointer;
+}
+.photo_conteiner{
+	height:250px;
+	border:1px solid #cfcfcf;
+	background:#fff;
+	text-align:center;
+}
+.photo_download{
+	margin-top:18px;
+}
+.photo_div{
+	height:210px;
+}
+.photo_div_comment{
+	padding:11px;
+}
+.photo_div_comment img{
+	position:relative;
+	top:40px;
+}
+.hover{
+	cursor:pointer;
+}
+.hover:hover{
+	background:#f3f5fb;
+}

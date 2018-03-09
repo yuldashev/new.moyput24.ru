@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'museo_sans_cyrl300';
+    src: url('museosanscyrl-300-webfont.eot');
+    src: url('museosanscyrl-300-webfont.eot?#iefix') format('embedded-opentype'),
+         url('museosanscyrl-300-webfont.woff2') format('woff2'),
+         url('museosanscyrl-300-webfont.woff') format('woff'),
+         url('museosanscyrl-300-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'museo_sans_cyrl700';
+    src: url('museosanscyrl-700-webfont.eot');
+    src: url('museosanscyrl-700-webfont.eot?#iefix') format('embedded-opentype'),
+         url('museosanscyrl-700-webfont.woff2') format('woff2'),
+         url('museosanscyrl-700-webfont.woff') format('woff'),
+         url('museosanscyrl-700-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'museo_sans_cyrl500';
+    src: url('museosanscyrl-500-webfont.eot');
+    src: url('museosanscyrl-500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('museosanscyrl-500-webfont.woff2') format('woff2'),
+         url('museosanscyrl-500-webfont.woff') format('woff'),
+         url('museosanscyrl-500-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

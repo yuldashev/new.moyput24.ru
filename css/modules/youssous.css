@@ -1,0 +1,8 @@
+#answer{
+	width: calc(100% - 52px);
+	width: -moz-calc(100% - 52px);
+	width: -webkit-calc(100% - 52px);
+	width: -o-calc(100% - 52px);
+	margin: 0 15px;
+	height: 100px;
+}

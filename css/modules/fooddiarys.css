@@ -1,0 +1,123 @@
+.fooddiary_div_margin{
+	margin:15px;
+	font-size:20px;
+}
+.fooddiary_div_padding{
+	padding:15px;
+}
+.fooddiary_head_left{
+	width:50%;
+	text-align:left;
+	display:inline-block;
+}
+.fooddiary_div_menu{
+	margin:5px 0;
+}
+.fooddiary_head_right{
+	width:50%;
+	text-align:right;
+	display:inline-block;
+}
+
+.fooddiary_menu_left{
+	display:inline-block;
+	width:240px;
+}
+.fooddiary_menu_c{
+	display:inline-block;
+	width:120px;
+	margin:0 15px;
+}
+.fooddiary_menu_right{
+	display:inline-block;
+	width:524px;
+}
+.fooddiary_menu_left select{
+	width:238px;
+	padding:9px 10px;
+}
+.fooddiary_menu_c input{
+	width:98px;
+	padding:8px 10px 7px 10px;
+    border-radius: 5px;
+	border:1px solid #cfcfcf;
+	margin:0px;
+}
+.fooddiary_menu_right input{
+	width:502px;
+}
+.fooddiary_menu_left_next{
+	display:none;
+}
+#fooddiary_menu{
+	margin:15px 0;
+}
+#comment,#otvet{
+	width: calc(100% - 22px);
+	width: -moz-calc(100% - 22px);
+	width: -webkit-calc(100% - 22px);
+	width: -o-calc(100% - 22px);
+	height: 100px;
+}
+
+@media screen and (max-width: 1350px) {
+	.fooddiary_menu_left{
+		width:220px;
+	}
+	.fooddiary_menu_c{
+		width:100px;
+	}
+	.fooddiary_menu_right{
+		width:260px;
+	}
+	.fooddiary_menu_left select{
+		width:218px;
+	}
+	.fooddiary_menu_c input{
+		width:78px;
+	}
+	.fooddiary_menu_right input{
+		width:238px;
+	}
+	
+}
+@media screen and (max-width: 1024px) {
+	.fooddiary_menu_left{
+		width:220px;
+	}
+	.fooddiary_menu_c{
+		width:100px;
+	}
+	.fooddiary_menu_left select{
+		width:218px;
+	}
+	.fooddiary_menu_c input{
+		width:78px;
+	}
+}
+@media screen and (max-width: 760px) {
+	.fooddiary_menu_left{
+		width:140px;
+	}
+	.fooddiary_menu_c{
+		width:90px;
+	}
+	.fooddiary_menu_right{
+		width:220px;
+	}
+	.fooddiary_menu_left select{
+		width:138px;
+	}
+	.fooddiary_menu_c input{
+		width:68px;
+	}
+	.fooddiary_menu_right input{
+		width:198px;
+	}
+	.fooddiary_menu_left_first{
+		display:none;
+	}
+	.fooddiary_menu_left_next{
+		display:inline-block;
+	}
+}
